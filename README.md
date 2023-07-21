@@ -1,25 +1,21 @@
-# Next.js + Jest
+# Bulletproof Next.js + Jest + TailwindCSS
+This is a bulletproof starter template for building a [Next.js](https://nextjs.org/) app with [Jest](https://jestjs.io/) and [TailwindCSS](https://tailwindcss.com/).
+Tailwind for styling, Jest for testing, and Next.js for everything else. Very ease to use
 
-This example shows how to configure Jest to work with Next.js.
+## Getting Started
 
-This includes Next.js' built-in support for Global CSS, CSS Modules and TypeScript.
-
-## How to Use
-
-Quickly get started using [Create Next App](https://github.com/vercel/next.js/tree/canary/packages/create-next-app#readme)!
-
-In your terminal, run the following command:
+Clone the repo and install dependencies:
 
 ```bash
-npx create-next-app --example with-jest with-jest-app
+git clone https://github.com/frankudoags/bullet-proof-next.git
+cd bullet-proof-next
+npm install
 ```
 
-```bash
-yarn create next-app --example with-jest with-jest-app
-```
+## Run the Development Server
 
 ```bash
-pnpm create next-app --example with-jest with-jest-app
+npm run dev
 ```
 
 ## Run Jest Tests
@@ -27,3 +23,16 @@ pnpm create next-app --example with-jest with-jest-app
 ```bash
 npm test
 ```
+
+## Build for Production
+
+```bash
+npm run build
+```
+
+
+
+## Improvements
+- [ ] Add Cypress for E2E testing(possibly)
+- [ ] Add Redux for state management
+- [ ] Use Redux-Toolkit for backend integration
