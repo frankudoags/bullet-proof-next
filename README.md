@@ -1,7 +1,8 @@
 # Bulletproof Next.js + Jest + TailwindCSS
 
 This is a bulletproof starter template for building a [Next.js](https://nextjs.org/) app with [Jest](https://jestjs.io/) and [TailwindCSS](https://tailwindcss.com/).
-Tailwind for styling, Jest for testing, and Next.js for everything else. Very ease to use
+Tailwind for styling, Jest for testing, Typescript for type checking and code safety,
+ and Next.js for everything else. Very ease to use
 
 ## Getting Started
 
